@@ -1,11 +1,12 @@
-package io.javabrains.coronavirustracker.controllers;
+package io.TradingElixir.coronavirustracker.controllers;
 
-import io.javabrains.coronavirustracker.models.LocationStats;
-import io.javabrains.coronavirustracker.services.CoronaVirusDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+
+import io.TradingElixir.coronavirustracker.models.LocationStats;
+import io.TradingElixir.coronavirustracker.services.CoronaVirusDataService;
 
 import java.util.List;
 

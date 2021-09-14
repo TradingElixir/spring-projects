@@ -1,10 +1,11 @@
-package io.javabrains.coronavirustracker.services;
+package io.TradingElixir.coronavirustracker.services;
 
-import io.javabrains.coronavirustracker.models.LocationStats;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
+
+import io.TradingElixir.coronavirustracker.models.LocationStats;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;
